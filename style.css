@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Fira+Sans+Condensed:wght@500;600;900&family=Mulish:wght@400;700&family=Nunito:wght@300&family=Poppins:wght@400;500;700&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #cdcdd1;
+    padding: 80px;
+    border-radius: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+p {
+    font-weight: 500;
+}
+
+.icon1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+h5 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+textarea {
+    border: 2px solid rgb(121, 123, 130);
+}
+
+textarea::placeholder {
+    padding: 10px;
+}
+
+.yes {
+    margin-bottom: 50px;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+input {
+    margin-right: 5px;
+}
+
+.footer a {
+    background: #27276b;
+    color: #fff;
+    border: 1px solid #27276b;
+    padding: 20px 45px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.footer a:nth-child(2) {
+    background: #fff;
+    color: #27276b;
+}
